@@ -13,3 +13,11 @@ All of the default I2C addresses used on Northern Widget devices, tabulated
 | [Dyson LW](https://github.com/NorthernWidget-Skunkworks/Project-Dyson)                     	| 0x4A                    	| N                          	| Longwave radiation                                                                   	|                                                 	|
 | [LiDAR Lite Symbiont](https://github.com/NorthernWidget-Skunkworks/Project-Symbiont-LiDAR) 	| ?????                   	| Y                          	| Backpack board for laser rangefinder + MEMS accelerometer for orientation            	|                                                 	|
 | [TP DownHole](https://github.com/NorthernWidget/TP-DownHole)                               	| 0x77, 0x6A              	| N                          	| Submersible pressure and temperature (I2C addresses in order); often for water level 	| 0x77 conflicts with BME280 on Resnik and Margay 	|
+
+## [Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
+
+| **Device**                                                	| **Default address(es)** 	| **Reprogrammable address** 	| **Function**                                                     	|
+|-----------------------------------------------------------	|-------------------------	|----------------------------	|------------------------------------------------------------------	|
+| [DS3231](https://github.com/NorthernWidget/DS3231_Logger) 	| 0x68                    	| N                          	| Real-time clock                                                  	|
+| [MCP3421](https://github.com/NorthernWidget/MCP3421)      	| 0x6A                    	| N                          	| ADC                                                              	|
+| [BME280](https://github.com/NorthernWidget/BME_Library)   	| 0x77                    	| N                          	| On-board barometric pressure, temperature, and relative humidity 	|
