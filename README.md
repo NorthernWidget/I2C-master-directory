@@ -27,3 +27,11 @@ All of the default I2C addresses used on Northern Widget devices, tabulated.
 
 ## [Resnik](https://github.com/NorthernWidget-Skunkworks/Project-Resnik)
 
+| **Device**                                                        	| **Default address** 	| **Reprogrammable address** 	| **Function**                                                     	|
+|-------------------------------------------------------------------	|---------------------	|----------------------------	|------------------------------------------------------------------	|
+| [DS3231](https://github.com/NorthernWidget/DS3231_Logger)         	| 0x68                	| N                          	| Real-time clock                                                  	|
+| [MCP23018](https://github.com/NorthernWidget-Skunkworks/MCP23018) 	| 0x20                	| N                          	| I/O Expander                                                     	|
+| [ADS1115](https://github.com/adafruit/Adafruit_ADS1X15)           	| 0x48                	| N                          	| ADC (on-board devices)                                           	|
+| [ADS1115](https://github.com/adafruit/Adafruit_ADS1X15)           	| 0x49                	| N                          	| ADC (off-board devices)                                          	|
+| [MCP4725](https://github.com/NorthernWidget-Skunkworks/MCP4725)   	| 0x62                	| N                          	| DAC                                                              	|
+| [BME280](https://github.com/NorthernWidget/BME_Library)           	| 0x77                	| N                          	| On-board barometric pressure, temperature, and relative humidity 	|
