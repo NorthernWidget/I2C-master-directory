@@ -1,0 +1,15 @@
+# I2C-master-directory
+All of the default I2C addresses used on Northern Widget devices, tabulated
+
+## Sensors
+
+| **Device**                                                                                 	| **Default address(es)** 	| **Reprogrammable address** 	| **Function**                                                                         	| **Notes**                                       	|
+|--------------------------------------------------------------------------------------------	|-------------------------	|----------------------------	|--------------------------------------------------------------------------------------	|-------------------------------------------------	|
+| [Tally](https://github.com/NorthernWidget-Skunkworks/Project-Tally)                        	| 0x33                    	| Y                          	| Counts pulses (from sensor, etc.)                                                    	|                                                 	|
+| [Haar](https://github.com/NorthernWidget-Skunkworks/Project-Haar)                          	| ?????                   	| Y                          	| Ruggedized & waterproof temperature, barometric pressure, & relative humidity        	|                                                 	|
+| [Walrus](https://github.com/NorthernWidget-Skunkworks/Project-Walrus)                      	| 0x4D                    	| Y                          	| Submersible temperature and pressure; often for water level                          	|                                                 	|
+| [Dyson SW](https://github.com/NorthernWidget-Skunkworks/Project-Dyson)                     	| 0x40, 0x1D              	| N                          	| Shortwave radiation: radiation (light), accelerometer (given in that order)          	| Default; upwards-facing                         	|
+| [Dyson SW](https://github.com/NorthernWidget-Skunkworks/Project-Dyson)                     	| 0x41, 0x53              	| N                          	| Shortwave radiation (alternative I2C address set): radiation (light), accelerometer  	| Alternative addresses set in device firmware    	|
+| [Dyson LW](https://github.com/NorthernWidget-Skunkworks/Project-Dyson)                     	| 0x4A                    	| N                          	| Longwave radiation                                                                   	|                                                 	|
+| [LiDAR Lite Symbiont](https://github.com/NorthernWidget-Skunkworks/Project-Symbiont-LiDAR) 	| ?????                   	| Y                          	| Backpack board for laser rangefinder + MEMS accelerometer for orientation            	|                                                 	|
+| [TP DownHole](https://github.com/NorthernWidget/TP-DownHole)                               	| 0x77, 0x6A              	| N                          	| Submersible pressure and temperature (I2C addresses in order); often for water level 	| 0x77 conflicts with BME280 on Resnik and Margay 	|
